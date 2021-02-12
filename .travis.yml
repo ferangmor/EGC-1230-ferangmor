@@ -26,3 +26,6 @@ deploy:
   apikey: $HEROKU_AUTH_TOKEN
   on:
      branch: master
+notifications:
+  email:
+    - ferangmor@alum.us.es
